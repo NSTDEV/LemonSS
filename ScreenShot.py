@@ -21,10 +21,10 @@ def Dragging(event):
 
 
 def ssWidget():
-	botonCaptura = Button(vn, text="Capturar", width=10, font=("Rainyhearts", 15), bg="#fae38c", fg="#5b4a09", borderwidth=5, command=capturar)
+	botonCaptura = Button(vn, text="Capturar", width=10, font=("Century Gothic", 12), bg="#fae38c", fg="#5b4a09", borderwidth=5, command=capturar)
 	botonCaptura.pack(side=LEFT, padx=5)
 	
-	closeButton = Button(vn, text="x", width=2, bg="#fae38c", highlightbackground="#5b4a09", borderwidth=5, command=vn.destroy)
+	closeButton = Button(vn, text="X", width=2, bg="#fae38c", highlightbackground="#5b4a09", borderwidth=5, command=vn.destroy)
 	closeButton.pack(side=RIGHT, pady=3, padx=5)
 	
 
